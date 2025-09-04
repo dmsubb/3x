@@ -42,6 +42,3 @@ if [ $? -eq 0 ]; then
 else
   exit 1
 fi
-
-echo "Путь к файлу ПУБЛИЧНОГО ключа сертификата - сюда вставить путь /etc/ssl/self_signed_cert/self_signed.crt"
-echo "Путь к файлу ПРИВАТНОГО ключа сертификата - сюда вставить путь /etc/ssl/self_signed_cert/self_signed.key"
